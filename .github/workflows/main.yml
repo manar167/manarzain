@@ -22,5 +22,10 @@ jobs:
       - name: 'test action1'
         run: echo 'manar zain'
 
-      - name: 'test action2'
+      - name: 'before'
+        run: ls
+
+      - uses: actions/checkout@v3
+
+      - name: 'after'
         run: ls

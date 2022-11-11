@@ -21,3 +21,6 @@ jobs:
 
       - name: 'test action1'
         run: echo 'manar zain'
+
+      - name: 'test action2'
+        run: ls

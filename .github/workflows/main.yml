@@ -31,4 +31,4 @@ jobs:
         run: ls
 
       - name: "login docker hub"
-        run: docker login --username ${{ secrets.Docker-username }} --password ${{ secrets.Docker_token }}
+        run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_TOKEN }}
